@@ -3,7 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class AudioManager : MonoBehaviour
-{
-    public Sound[] dzwiek, music;
 
+{
+    public AudioSource musicSource;
+    public AudioSource sfxSource;
+    public Sound[] Music;
+    public Sound[] Effects;
+    
 }
